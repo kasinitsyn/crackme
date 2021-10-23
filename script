@@ -1,0 +1,4 @@
+#!/bin/bash
+
+g++ crackme.cpp -O3 -o crackme # Компиляция с оптимизацией О3
+strip -s crackme # Применение утилиты strip
